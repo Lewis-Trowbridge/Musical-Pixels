@@ -12,6 +12,9 @@ An audio visualiser utilising an Arduino with a ring of Adafruit Neopixels, with
 
 ## How do I use it?
 **All instructions performed with an Arduino Uno with a 16x ring of WS2812 Neopixels**
-Make sure the Arduino is set up. At the moment, the data in slot is set to slot 6 on the Arduino. Select an MP3 file and close the extra window that opens up (this is a consequence of making a last-minute inclusion of GTK into a Console application in an attempt to keep cross-platform compatibility)
+
+Make sure the Arduino is set up. At the moment, the data in slot is set to slot 6 on the Arduino.
+
+Select an MP3 file and close the extra window that opens up (this is a consequence of making a last-minute inclusion of GTK into a Console application in an attempt to keep cross-platform compatibility)
 ![A screenshot of Windows Explorer selecting an MP3 file](https://imgur.com/O9qlblM.png)
 The audio should begin playing out of your default audio device, and you should see the Neopixel array light up and change colour with the music. That's about it!
