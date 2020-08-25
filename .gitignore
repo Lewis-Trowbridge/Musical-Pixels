@@ -1,0 +1,23 @@
+
+.vs/MusicalPixelsDesktop/v16/.suo
+.vs/MusicalPixelsDesktop/v16/Server/sqlite3/db.lock
+.vs/MusicalPixelsDesktop/v16/Server/sqlite3/storage.ide
+.vs/MusicalPixelsDesktop/v16/Server/sqlite3/storage.ide-shm
+.vs/MusicalPixelsDesktop/v16/Server/sqlite3/storage.ide-wal
+*.dll
+*.exe
+*.json
+*.pdb
+*.so
+*.dylib
+MusicArduino/obj/Debug/netcoreapp3.1/Avalonia/references
+MusicArduino/obj/Debug/netcoreapp3.1/Avalonia/resources
+MusicArduino/obj/Debug/netcoreapp3.1/MusicalPixels Desktop.AssemblyInfo.cs
+*.cache
+*.CopyComplete
+*.txt
+MusicArduino/obj/Debug/netcoreapp3.1/MusicArduino.AssemblyInfo.cs
+*.props
+*.targets
+MusicArduino/obj/Release/netcoreapp3.1/MusicArduino.AssemblyInfo.cs
+.vs/MusicalPixelsDesktop/DesignTimeBuild/.dtbcache
