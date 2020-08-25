@@ -21,3 +21,4 @@ MusicArduino/obj/Debug/netcoreapp3.1/MusicArduino.AssemblyInfo.cs
 *.targets
 MusicArduino/obj/Release/netcoreapp3.1/MusicArduino.AssemblyInfo.cs
 .vs/MusicalPixelsDesktop/DesignTimeBuild/.dtbcache
+MusicArduino/obj/Release/netcoreapp3.1/MusicalPixels Desktop.AssemblyInfo.cs

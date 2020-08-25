@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System.Numerics;
-using NAudio.Wave;
 using NAudio.Dsp;
 
 namespace MusicArduino
@@ -67,6 +66,7 @@ namespace MusicArduino
                 }
             }
             AudioData output = new AudioData(counts, averageAmplitudes);
+            // These mask functions were intended to distribute values, solving the issue of the frequencies dogpiling the first band, but I found these did more harm than good, and commented them out
             //Vector<short> countVector = GetLightVector(counts);
             //for (int vectorPosition = 0; vectorPosition < counts.Length; vectorPosition++)
             //{

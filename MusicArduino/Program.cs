@@ -27,10 +27,10 @@ namespace MusicArduino
                     musicDataReader.Position = musicPlaybackReader.Position;
                     musicDataReader.Read(amplitudeBuffer, 0, amplitudeBuffer.Length);
                     AudioData lightCounts = AudioMethods.GetFrequencyBands(amplitudeBuffer);
-                    byte[] help = SerialConnection.SendFrequencyBandData(lightCounts);
-                    foreach(byte helpme in help)
+                    byte[] bytesSent = SerialConnection.SendFrequencyBandData(lightCounts);
+                    foreach(byte byteSent in bytesSent)
                     {
-                        Console.Write(helpme + ", ");
+                        Console.Write(byteSent + ", ");
                     }
                     Console.WriteLine("");
                     currentSentPosition += amplitudeBuffer.Length;
